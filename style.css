@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f9fafb;
+  margin: 0;
+  padding: 30px;
+  color: #333;
+}
+
+#team-names-container input {
+  padding: 10px;
+  margin: 10px 5px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+#team-names-container button {
+  padding: 12px 25px;
+  font-size: 18px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+#team-names-container button:hover {
+  background-color: #2563eb;
+}
+
+#scoreboard {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  gap: 50px;
+}
+
+.score-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-name-label {
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #444;
+}
+
+.score {
+  background-color: #e0e7ff;
+  padding: 20px 40px;
+  border-radius: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #3730a3;
+  min-width: 120px;
+}
+
+#game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#photo {
+  max-width: 350px;
+  max-height: 350px;
+  margin: 20px auto;
+  border-radius: 15px;
+  border: 3px solid #2563eb;
+  object-fit: contain;
+  display: block;
+}
+
+#guessInput {
+  padding: 12px 20px;
+  font-size: 20px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  width: 300px;
+  margin-top: 10px;
+}
+
+#submitGuessBtn, #nextPhotoBtn {
+  padding: 12px 25px;
+  font-size: 18px;
+  background-color: #10b981;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-left: 15px;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+#submitGuessBtn:hover, #nextPhotoBtn:hover {
+  background-color: #059669;
+}
+
+.point-btn {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 10px 8px;
+  color: white;
+  transition: background-color 0.3s;
+}
+#hintBtn {
+  padding: 12px 25px;
+  font-size: 18px;
+  background-color: #fbbf24; /* amber */
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s;
+}
+
+#hintBtn:hover {
+  background-color: #d97706;
+}
+
+#givePointATeamBtn {
+  background-color: #34d399;
+}
+#givePointATeamBtn:hover {
+  background-color: #059669;
+}
+
+#givePointBTeamBtn {
+  background-color: #60a5fa;
+}
+#givePointBTeamBtn:hover {
+  background-color: #2563eb;
+}
+
+#noPointBtn {
+  background-color: #f87171;
+}
+#noPointBtn:hover {
+  background-color: #b91c1c;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 18px;
+  height: 24px;
+  min-height: 24px;
+  color: #555;
+  font-weight: 600;
+}
