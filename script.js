@@ -11,7 +11,7 @@ const photoData = [
   },
   {
     file: 'images/تفاحة.jpg',
-    answers: ['تفاحة', 'apple'],
+    answers: ['تفاحة', 'apple','تفاحه'],
     hint: 'فاكهة لونها غالباً أحمر أو أخضر.'
   },
   {
