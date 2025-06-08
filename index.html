@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Photo Guessing Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Team Selection Screen -->
+  <div id="team-selection-screen">
+    <h2>Select Number of Teams</h2>
+    <select id="teamCountSelect">
+      <option value="2">2 Teams</option>
+      <option value="3">3 Teams</option>
+      <option value="4">4 Teams</option>
+      <option value="5">5 Teams</option>
+    </select>
+    <button id="nextToNameInputBtn">Next</button>
+  </div>
+
+  <!-- Team Naming Screen -->
+  <div id="team-names-container" style="display:none;">
+    <h2>Enter Team Names</h2>
+    <div id="teamNameInputs"></div>
+    <button id="startGameBtn">Start Game</button>
+  </div>
+
+  <!-- Scoreboard -->
+  <div id="scoreboard" style="display:none;"></div>
+
+  <!-- Game Container -->
+  <div id="game-container" style="display:none;">
+    <img id="photo" src="" alt="Guess the photo" />
+    <div style="margin-top: 20px;">
+      <input id="guessInput" type="text" placeholder="Enter your guess" />
+      <button id="submitGuessBtn">Submit Guess</button>
+      <button id="hintBtn">Hint</button>
+    </div>
+    <p id="hintArea"></p>
+
+    <div id="point-buttons" style="margin-top: 20px;"></div>
+
+    <button id="nextPhotoBtn" style="display:none;">Next Photo</button>
+    <p id="message"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
